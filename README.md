@@ -47,6 +47,8 @@ echo $resp; // output: 123
 ## Compile and Install
 
 ```sh
+ sudo apt-get update
+ sudo apt-get install unzip make g++ -y
  wget --no-check-certificate https://github.com/matishsiao/ssdb/archive/master.zip
  unzip master
  cd ssdb-master
