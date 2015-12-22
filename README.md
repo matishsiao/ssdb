@@ -47,12 +47,10 @@ echo $resp; // output: 123
 ## Compile and Install
 
 ```sh
-$ wget --no-check-certificate https://github.com/ideawu/ssdb/archive/master.zip
-$ unzip master
-$ cd ssdb-master
-$ make
-$ #optional, install ssdb in /usr/local/ssdb
-$ sudo make install
+ wget --no-check-certificate https://github.com/matishsiao/ssdb/archive/master.zip
+ unzip master
+ cd ssdb-master
+ make
 
 # start master
 $ ./ssdb-server ssdb.conf
